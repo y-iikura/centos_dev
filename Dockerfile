@@ -14,5 +14,5 @@ RUN yum install -y opencv-python.x86_64
 RUN yum install -y epel-release && yum install -y gdal-python.x86_64 gdal gdal-devel
 
 # pip  python packages
-Run pip install --upgrade pip && pip install numpy scipy pyproj fiona
+Run pip install --upgrade pip numpy && pip install scipy pyproj fiona
 
